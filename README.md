@@ -1,16 +1,7 @@
 # musicloud
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+An Android app which lets users stream music, upload music on the cloud storage, manage playlist,
+and share amongst the users on the app platform as a social media app. Technology used Flutter,
+firebase storage-database, dart , Google authentication for signing of users.
+I have provided the apk file as well as the source code which i have wrote 
+in  lib folder 
+all the packages used are mentioned in the dependencies section of the pubspec.yaml file
