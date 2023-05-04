@@ -1,0 +1,4 @@
+#Wed May 03 22:14:04 IST 2023
+base.0=D\:\\engg\\musiccloud\\musicloud\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

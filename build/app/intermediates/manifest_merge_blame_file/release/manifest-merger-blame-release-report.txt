@@ -1,0 +1,299 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.musicloud"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:4:5-80
+12-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->[:file_picker] D:\engg\musiccloud\musicloud\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-80
+13-->[:file_picker] D:\engg\musiccloud\musicloud\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-77
+14
+15    <queries>
+15-->[:file_picker] D:\engg\musiccloud\musicloud\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-17:15
+16        <intent>
+16-->[:file_picker] D:\engg\musiccloud\musicloud\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-16:18
+17            <action android:name="android.intent.action.GET_CONTENT" />
+17-->[:file_picker] D:\engg\musiccloud\musicloud\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-72
+17-->[:file_picker] D:\engg\musiccloud\musicloud\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:21-69
+18
+19            <data android:mimeType="*/*" />
+19-->[:file_picker] D:\engg\musiccloud\musicloud\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-44
+19-->[:file_picker] D:\engg\musiccloud\musicloud\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:19-41
+20        </intent>
+21    </queries>
+22
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:26:5-79
+23-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:26:22-76
+24
+25    <application
+26        android:name="android.app.Application"
+26-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:7:9-42
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.8.0] C:\Users\PC\.gradle\caches\transforms-3\36645dad4856a45a63618a9e4f104845\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:8:9-43
+29        android:label="musicloud" >
+29-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:6:9-34
+30        <activity
+30-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:9:9-29:20
+31            android:name="com.example.musicloud.MainActivity"
+31-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:10:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:14:13-163
+33            android:exported="true"
+33-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:11:13-36
+34            android:hardwareAccelerated="true"
+34-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:15:13-47
+35            android:launchMode="singleTop"
+35-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:12:13-43
+36            android:theme="@style/LaunchTheme"
+36-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:13:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:16:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:21:13-24:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:22:15-70
+47                android:resource="@style/NormalTheme" />
+47-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:23:15-52
+48
+49            <intent-filter>
+49-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:25:13-28:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:26:17-68
+50-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:26:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:27:17-76
+52-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:27:27-74
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+59-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:32:9-34:33
+60            android:name="flutterEmbedding"
+60-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:33:13-44
+61            android:value="2" />
+61-->D:\engg\musiccloud\musicloud\android\app\src\main\AndroidManifest.xml:34:13-30
+62
+63        <service
+63-->[:firebase_database] D:\engg\musiccloud\musicloud\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[:firebase_database] D:\engg\musiccloud\musicloud\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:20.3.2] C:\Users\PC\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:68:13-37
+67            <meta-data
+67-->[:firebase_database] D:\engg\musiccloud\musicloud\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+68-->[:firebase_database] D:\engg\musiccloud\musicloud\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-127
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_database] D:\engg\musiccloud\musicloud\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+70            <meta-data
+70-->[:cloud_firestore] D:\engg\musiccloud\musicloud\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+71-->[:cloud_firestore] D:\engg\musiccloud\musicloud\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:cloud_firestore] D:\engg\musiccloud\musicloud\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+73            <meta-data
+73-->[:firebase_auth] D:\engg\musiccloud\musicloud\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+74-->[:firebase_auth] D:\engg\musiccloud\musicloud\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_auth] D:\engg\musiccloud\musicloud\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+76            <meta-data
+76-->[:firebase_storage] D:\engg\musiccloud\musicloud\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+77-->[:firebase_storage] D:\engg\musiccloud\musicloud\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-126
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:firebase_storage] D:\engg\musiccloud\musicloud\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+79            <meta-data
+79-->[:firebase_core] D:\engg\musiccloud\musicloud\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+80-->[:firebase_core] D:\engg\musiccloud\musicloud\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[:firebase_core] D:\engg\musiccloud\musicloud\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:69:13-71:85
+83                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+83-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:70:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:71:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\PC\.gradle\caches\transforms-3\fc58c4bb0c2ba423ba6b31f4487369bc\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:19:13-21:85
+86                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+86-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\PC\.gradle\caches\transforms-3\fc58c4bb0c2ba423ba6b31f4487369bc\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:20:17-111
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-firestore:24.5.0] C:\Users\PC\.gradle\caches\transforms-3\fc58c4bb0c2ba423ba6b31f4487369bc\transformed\jetified-firebase-firestore-24.5.0\AndroidManifest.xml:21:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\PC\.gradle\caches\transforms-3\f7d1f736b630d566ac422bcccf20f58c\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+89                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+89-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\PC\.gradle\caches\transforms-3\f7d1f736b630d566ac422bcccf20f58c\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\PC\.gradle\caches\transforms-3\f7d1f736b630d566ac422bcccf20f58c\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-database:20.2.0] C:\Users\PC\.gradle\caches\transforms-3\3c7accfafd7f3368f0ef79c326a54b72\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:31:13-33:85
+92                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+92-->[com.google.firebase:firebase-database:20.2.0] C:\Users\PC\.gradle\caches\transforms-3\3c7accfafd7f3368f0ef79c326a54b72\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:32:17-109
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-database:20.2.0] C:\Users\PC\.gradle\caches\transforms-3\3c7accfafd7f3368f0ef79c326a54b72\transformed\jetified-firebase-database-20.2.0\AndroidManifest.xml:33:17-82
+94        </service>
+95
+96        <activity
+96-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:29:9-46:20
+97            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+97-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:30:13-80
+98            android:excludeFromRecents="true"
+98-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:31:13-46
+99            android:exported="true"
+99-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:32:13-36
+100            android:launchMode="singleTask"
+100-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:33:13-44
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+101-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:34:13-72
+102            <intent-filter>
+102-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:35:13-45:29
+103                <action android:name="android.intent.action.VIEW" />
+103-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+103-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+105-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+106                <category android:name="android.intent.category.BROWSABLE" />
+106-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+106-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+107
+108                <data
+108-->[:file_picker] D:\engg\musiccloud\musicloud\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-44
+109                    android:host="firebase.auth"
+110                    android:path="/"
+111                    android:scheme="genericidp" />
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:47:9-64:20
+115            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+115-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:48:13-79
+116            android:excludeFromRecents="true"
+116-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:49:13-46
+117            android:exported="true"
+117-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:50:13-36
+118            android:launchMode="singleTask"
+118-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:51:13-44
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+119-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:52:13-72
+120            <intent-filter>
+120-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:53:13-63:29
+121                <action android:name="android.intent.action.VIEW" />
+121-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:17-69
+121-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:36:25-66
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:17-76
+123-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:38:27-73
+124                <category android:name="android.intent.category.BROWSABLE" />
+124-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:17-78
+124-->[com.google.firebase:firebase-auth:21.3.0] C:\Users\PC\.gradle\caches\transforms-3\314bddcf76e7789514d13a7878328ad7\transformed\jetified-firebase-auth-21.3.0\AndroidManifest.xml:39:27-75
+125
+126                <data
+126-->[:file_picker] D:\engg\musiccloud\musicloud\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-44
+127                    android:host="firebase.auth"
+128                    android:path="/"
+129                    android:scheme="recaptcha" />
+130            </intent-filter>
+131        </activity>
+132
+133        <uses-library
+133-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+134            android:name="androidx.window.extensions"
+134-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+135            android:required="false" />
+135-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+136        <uses-library
+136-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+137            android:name="androidx.window.sidecar"
+137-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+138            android:required="false" />
+138-->[androidx.window:window:1.0.0-beta04] C:\Users\PC\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+139
+140        <provider
+140-->[com.google.firebase:firebase-common:20.3.2] C:\Users\PC\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+141            android:name="com.google.firebase.provider.FirebaseInitProvider"
+141-->[com.google.firebase:firebase-common:20.3.2] C:\Users\PC\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+142            android:authorities="com.example.musicloud.firebaseinitprovider"
+142-->[com.google.firebase:firebase-common:20.3.2] C:\Users\PC\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+143            android:directBootAware="true"
+143-->[com.google.firebase:firebase-common:20.3.2] C:\Users\PC\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+144            android:exported="false"
+144-->[com.google.firebase:firebase-common:20.3.2] C:\Users\PC\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+145            android:initOrder="100" />
+145-->[com.google.firebase:firebase-common:20.3.2] C:\Users\PC\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+146
+147        <activity
+147-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\PC\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+148            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+148-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\PC\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+149            android:excludeFromRecents="true"
+149-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\PC\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\PC\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\PC\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+152        <!--
+153            Service handling Google Sign-In user revocation. For apps that do not integrate with
+154            Google Sign-In, this service will never be started.
+155        -->
+156        <service
+156-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\PC\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+157            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+157-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\PC\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
+158            android:exported="true"
+158-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\PC\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+159            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+159-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\PC\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+160            android:visibleToInstantApps="true" />
+160-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\PC\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+161
+162        <activity
+162-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\PC\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+163            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+163-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\PC\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\PC\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\PC\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+166
+167        <meta-data
+167-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\PC\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+168            android:name="com.google.android.gms.version"
+168-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\PC\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+169            android:value="@integer/google_play_services_version" />
+169-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\PC\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+170    </application>
+171
+172</manifest>
